@@ -95,7 +95,6 @@ function App() {
 
         <div className='border border-gray m-2'>
             <h4>You fevorite Pokemon :</h4>
-            <h4>You fevorite Pokemon55555 :</h4>
             <MyFevorite fev={fev}/>
         </div>
           
