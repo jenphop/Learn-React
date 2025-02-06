@@ -90,10 +90,11 @@ function App() {
               <button className='btn btn-primary m-2' onClick={nextPoke}>Next</button>         
             </>
           }
-          
+
         </div>
 
         <div className='border border-gray m-2'>
+            <h4>You fevorite Pokemon :</h4>
             <h4>You fevorite Pokemon :</h4>
             <MyFevorite fev={fev}/>
         </div>
