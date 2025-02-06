@@ -73,8 +73,8 @@ function App() {
     
     <div className=' w-full p-4 bg-white'>
       <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>       
-        <div>
-          {loading ? <ReactLoading  type='spin' color='red' height={'20%'} width={'20%'}/>:
+        <div className='container'>
+          {loading ? <ReactLoading className='outPopUp' type='spin' color='red' height={'10%'} width={'10%'}/>:
             <> 
               <h1>{poke?.name}</h1>
               <button onClick={AddFevorite} className="btn btn-info text-white">Add fevorite</button>          
