@@ -90,7 +90,7 @@ function App() {
               <button className='btn btn-primary m-2' onClick={nextPoke}>Next</button>         
             </>
           }
-
+          <h1>hello world</h1>
         </div>
 
         <div className='border border-gray m-2'>
